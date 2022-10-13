@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
 body{
     background-color: #FFEEDB;
 }
@@ -39,7 +41,12 @@ th{
     text-align: center;
     font-weight: bold;
 }
-
+th:hover{
+    background-color:red;
+}
+td:hover{
+    background-color: aqua;
+}
 tr.colored_row{
     background-color: #D4C1EC;
 }
@@ -92,4 +99,8 @@ tr.colored_row{
 #thirdCircle:hover{
     background-color: #32E875;
     border-radius: 24px;
+}
+
+h3{
+    font-family: 'Fuzzy Bubbles', cursive;
 }
