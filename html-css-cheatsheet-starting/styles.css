@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+body{
+    background-color: #FFEEDB;
+}
+
+#banner{
+    font-family: Alkalami,Arial;
+    padding-top:20px;
+    text-align:center;
+    position:relative;
+    background-image:url('https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=2000');
+    z-index:1;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+#bluetext{
+    color:blue;
+    font-family:Alkalami;
+    font-style: normal;
+}
+
+#htmlcssimage{
+    margin-left: 25%;
+}
+
+tr, th, td, tbody, thead{
+    border: 1px solid black;
+    width: 50%;
+}
+
+th{
+    background-color: #ADA8B6;
+    text-align: center;
+    font-weight: bold;
+}
+
+tr.colored_row{
+    background-color: #D4C1EC;
+}
+
+#html_table{
+    text-align: left;
+    font-size: medium;
+    margin-left: 25%;
+}
+.circles{
+    width:100%;
+}
+#firstCircle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #AEDCC0;
+    display: inline-block;
+    margin-left: 25%;
+}
+
+#secondCircle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #607466;
+    display: inline-block;
+    margin-inline-start: 12.5%;
+}
+
+#thirdCircle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #343E3D;
+    display: inline-block;
+    margin-inline-start: 12.5%;
+}
+
+#firstCircle:hover{
+    background-color: #5438DC;
+    border-radius:0px;
+}
+
+#secondCircle:hover{
+    background-color: #56EEF4;
+    border: 1px solid red;
+}
+
+#thirdCircle:hover{
+    background-color: #32E875;
+    border-radius: 24px;
+}
