@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+
+.banner{
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(https://img.freepik.com/free-vector/classic-vintage-retro-sipral-rays-background_1017-33771.jpg?w=2000);
+    opacity: 90%;
+    text-align: center;
+    font-size: 24px;
+    -webkit-text-stroke: 0.5px lime;
+    -webkit-text-fill-color: blue;
+}
+
+
+
+.colors_div{
+    border: 1px solid black;
+    margin: 10px 10% 10px 10%;
+}
+
+.fonts_div{
+    border: 1px solid black;
+    margin: 0px 10% 0px 10%;
+    padding-left: 2%;
+}
+
+.texts_div{
+    border: 1px solid black;
+    margin: 10px 10% 10px 10%;
+    padding-left: 2%;
+}
+
+h3{
+    margin-left: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+#red{
+    height:200px;
+    width:200px;
+    background-color: red;
+    border: 1px solid black;
+    margin: 0px 25px 5px 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+#red:hover{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#green{
+    height: 200px;
+    width: 200px;;
+    background-color: green;
+    border: 1px solid black;
+    margin: 0 25px 5px 0px;
+    text-align: center;
+    display: inline-block;
+}
+
+#green:hover{
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 1px solid black;
+    margin: 0 25px 5px 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+#blue:hover{
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#fuchsia{
+    height: 200px;
+    width: 200px;
+    background-color: fuchsia;
+    border: 1px solid black;
+    margin: 0 25px 5px 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+#fuchsia:hover{
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#colors_paragraph{
+    margin-top: 45%;
+    color: yellow;
+}
